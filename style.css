@@ -1,0 +1,130 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    background-color: rgb(248, 239, 227);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nav, .satu{
+    background-color: rgb(7, 116, 74);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.dua{
+    background-color: rgb(0, 6, 77);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.tiga{
+    background-color: rgb(252, 144, 50);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.7);
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.brand{
+    width: 20%;
+    padding: 20px;
+}
+
+.brand > .brand-name{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgb(255, 225, 0);
+}
+
+.name{
+    font-weight: 400;
+    color: white;
+}
+
+.link-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-right: 20px;
+}
+
+.link-item > li{
+    margin-right: 20px;
+}
+
+.link-item > li > a{
+    border-radius: 5px;
+    display: inline-block;
+    padding: 12px 15px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.link-item > li:hover a{
+    background-color: rgb(31, 138, 122);
+    color: rgb(255, 255, 255);
+}
+
+.active{
+    background-color: rgb(4, 49, 42);
+    color: rgb(255, 255, 255) !important;
+}
+
+li:hover a.active{
+    background-color: rgb(4, 49, 42);
+    color: rgb(255, 255, 255) !important;
+}
+
+.link-item > .li:hover a{
+    background-color: rgb(27, 4, 86);
+    color: rgb(255, 255, 255);
+}
+
+.actived{
+    background-color: rgb(85, 46, 182);
+    color: rgb(255, 255, 255) !important;
+}
+
+.li:hover a.actived{
+    background-color: rgb(85, 46, 182);
+    color: rgb(255, 255, 255) !important;
+}
+
+.link-item > .l:hover a{
+    background-color: rgb(255, 187, 51);
+    color: rgb(255, 255, 255);
+}
+
+.activ{
+    background-color: rgb(81, 44, 1);
+    color: rgb(255, 255, 255) !important;
+}
+
+.l:hover a.activ{
+    background-color: rgb(81, 44, 1);
+}
